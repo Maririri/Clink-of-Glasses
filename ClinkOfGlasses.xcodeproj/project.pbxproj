@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247AE4066CCDFFBB2CE24E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AE51D1CE777DED93F44AC /* AppDelegate.swift */; };
+		247AE58F399FAF5227151EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247AEB0BDEF5086946DD1CA4 /* Main.storyboard */; };
+		247AEA177C795040220C03B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AE8DEA9F9F4500DEA7609 /* ViewController.swift */; };
+		247AECB959C72208BF03ABB5 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 247AE229B293C5FAE06D1ED8 /* Media */; };
+		247AED623BA31780FF7A160D /* ClinkOfGlassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AE5A2AE93A444AC035C9B /* ClinkOfGlassesTests.swift */; };
+		247AEFD77CFB3B9547EE08DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247AE6F0CDE9D00C12C27866 /* LaunchScreen.xib */; };
+		4CE5980D1A2C91C60057CD47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE5980C1A2C91C60057CD47 /* Images.xcassets */; };
+		4CE5980F1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CE5980E1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 */; };
+		4CE598121A2DE8890057CD47 /* glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE598111A2DE8890057CD47 /* glasses.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		247AE640D7480EFB7283ACD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 247AE582A4A393E8AE4434B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 247AEBC56AB96AE1BCEA541A;
+			remoteInfo = ClinkOfGlasses;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		247AE229B293C5FAE06D1ED8 /* Media */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Media; sourceTree = "<group>"; };
+		247AE4BD3EA041157268C1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		247AE51D1CE777DED93F44AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		247AE5A2AE93A444AC035C9B /* ClinkOfGlassesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClinkOfGlassesTests.swift; sourceTree = "<group>"; };
+		247AE7184EE2B060E01E9FAF /* ClinkOfGlasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClinkOfGlasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		247AE74BD7131671DBDA015F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		247AE8BA63CED50215C52F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		247AE8DEA9F9F4500DEA7609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247AEDA6E45098511314F3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		247AEF395BA202E4D2B50992 /* ClinkOfGlassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClinkOfGlassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE5980C1A2C91C60057CD47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CE5980E1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = glasses_tumblers_x2_clink_004.mp3; path = Media/glasses_tumblers_x2_clink_004.mp3; sourceTree = "<group>"; };
+		4CE598111A2DE8890057CD47 /* glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glasses.png; path = Media/glasses.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		247AE95ABE728277B98CB652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247AEE2CB9AEE9E281AB9528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247AE76F5119E258A8CEB573 /* ClinkOfGlassesTests */ = {
+			isa = PBXGroup;
+			children = (
+				247AE7E78E89731C2F738316 /* Supporting Files */,
+				247AE5A2AE93A444AC035C9B /* ClinkOfGlassesTests.swift */,
+			);
+			path = ClinkOfGlassesTests;
+			sourceTree = "<group>";
+		};
+		247AE78471C26537AB08D292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				247AE7184EE2B060E01E9FAF /* ClinkOfGlasses.app */,
+				247AEF395BA202E4D2B50992 /* ClinkOfGlassesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		247AE7E78E89731C2F738316 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				247AE8BA63CED50215C52F3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		247AE8AFC3E8CF107D5EA7B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE5980C1A2C91C60057CD47 /* Images.xcassets */,
+				247AEDA6E45098511314F3B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		247AEAD43B8EA66F196D1D64 = {
+			isa = PBXGroup;
+			children = (
+				4CE598111A2DE8890057CD47 /* glasses.png */,
+				4CE5980E1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 */,
+				247AE78471C26537AB08D292 /* Products */,
+				247AEEA26439BA1B5FA7B94B /* ClinkOfGlasses */,
+				247AE76F5119E258A8CEB573 /* ClinkOfGlassesTests */,
+				247AE229B293C5FAE06D1ED8 /* Media */,
+			);
+			sourceTree = "<group>";
+		};
+		247AEEA26439BA1B5FA7B94B /* ClinkOfGlasses */ = {
+			isa = PBXGroup;
+			children = (
+				247AE8AFC3E8CF107D5EA7B1 /* Supporting Files */,
+				247AE6F0CDE9D00C12C27866 /* LaunchScreen.xib */,
+				247AE51D1CE777DED93F44AC /* AppDelegate.swift */,
+				247AEB0BDEF5086946DD1CA4 /* Main.storyboard */,
+				247AE8DEA9F9F4500DEA7609 /* ViewController.swift */,
+			);
+			path = ClinkOfGlasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		247AEBC56AB96AE1BCEA541A /* ClinkOfGlasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247AE2BFBAEB84343D493776 /* Build configuration list for PBXNativeTarget "ClinkOfGlasses" */;
+			buildPhases = (
+				247AE8C34A5D41488878C60C /* Sources */,
+				247AE95ABE728277B98CB652 /* Frameworks */,
+				247AE57D8BA6A4F1E3FDEE88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClinkOfGlasses;
+			productName = ClinkOfGlasses;
+			productReference = 247AE7184EE2B060E01E9FAF /* ClinkOfGlasses.app */;
+			productType = "com.apple.product-type.application";
+		};
+		247AED500D67F10AF80F67EB /* ClinkOfGlassesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247AEE2C064C1C0BF727B410 /* Build configuration list for PBXNativeTarget "ClinkOfGlassesTests" */;
+			buildPhases = (
+				247AEBE3061B5CDF58D5FCA7 /* Sources */,
+				247AEE2CB9AEE9E281AB9528 /* Frameworks */,
+				247AE0E4AA8530EA28418049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247AEC3C00F4D6B8C3EDAA9E /* PBXTargetDependency */,
+			);
+			name = ClinkOfGlassesTests;
+			productName = ClinkOfGlassesTests;
+			productReference = 247AEF395BA202E4D2B50992 /* ClinkOfGlassesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		247AE582A4A393E8AE4434B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 247AECA07E209D14AFEC2CC6 /* Build configuration list for PBXProject "ClinkOfGlasses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 247AEAD43B8EA66F196D1D64;
+			productRefGroup = 247AE78471C26537AB08D292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				247AEBC56AB96AE1BCEA541A /* ClinkOfGlasses */,
+				247AED500D67F10AF80F67EB /* ClinkOfGlassesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		247AE0E4AA8530EA28418049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247AE57D8BA6A4F1E3FDEE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE598121A2DE8890057CD47 /* glasses.png in Resources */,
+				4CE5980F1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 in Resources */,
+				247AEFD77CFB3B9547EE08DD /* LaunchScreen.xib in Resources */,
+				4CE5980D1A2C91C60057CD47 /* Images.xcassets in Resources */,
+				247AE58F399FAF5227151EA9 /* Main.storyboard in Resources */,
+				247AECB959C72208BF03ABB5 /* Media in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		247AE8C34A5D41488878C60C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247AE4066CCDFFBB2CE24E49 /* AppDelegate.swift in Sources */,
+				247AEA177C795040220C03B2 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247AEBE3061B5CDF58D5FCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247AED623BA31780FF7A160D /* ClinkOfGlassesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247AEC3C00F4D6B8C3EDAA9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 247AEBC56AB96AE1BCEA541A /* ClinkOfGlasses */;
+			targetProxy = 247AE640D7480EFB7283ACD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		247AE6F0CDE9D00C12C27866 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247AE74BD7131671DBDA015F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		247AEB0BDEF5086946DD1CA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				247AE4BD3EA041157268C1F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		247AE301060D3766B645C615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		247AE467A84D66E1E4F1D613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		247AE5E725814DFA4000AF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClinkOfGlasses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		247AE6B5961FA53A576774EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClinkOfGlasses.app/ClinkOfGlasses";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClinkOfGlassesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		247AEFB8892DD5B485D1573B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ClinkOfGlasses.app/ClinkOfGlasses";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ClinkOfGlassesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		247AEFC29DA42D31F0E74A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClinkOfGlasses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247AE2BFBAEB84343D493776 /* Build configuration list for PBXNativeTarget "ClinkOfGlasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247AE5E725814DFA4000AF31 /* Debug */,
+				247AEFC29DA42D31F0E74A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247AECA07E209D14AFEC2CC6 /* Build configuration list for PBXProject "ClinkOfGlasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247AE467A84D66E1E4F1D613 /* Debug */,
+				247AE301060D3766B645C615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		247AEE2C064C1C0BF727B410 /* Build configuration list for PBXNativeTarget "ClinkOfGlassesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247AE6B5961FA53A576774EF /* Debug */,
+				247AEFB8892DD5B485D1573B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 247AE582A4A393E8AE4434B8 /* Project object */;
+}
