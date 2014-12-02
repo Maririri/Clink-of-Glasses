@@ -37,14 +37,12 @@ class ViewController: UIViewController {
         var clinkSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("glasses_tumblers_x2_clink_004", ofType: "mp3")!)
 
         audioPlayer = AVAudioPlayer(contentsOfURL: clinkSound, error: &error)
-//      audioPlayer.prepareToPlay()
         audioPlayer.play()
     }
 
 }
 
 extension ViewController: UIPickerViewDataSource {
-    // two required methods
 
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1
@@ -53,18 +51,11 @@ extension ViewController: UIPickerViewDataSource {
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return pickerSet.count
     }
-
 }
 
 extension ViewController: UIPickerViewDelegate {
-    // several optional methods:
-
 
     func pickerView(pickerView: UIPickerView!, titleForRow row: Int, forComponent component: Int) -> String! {
         return pickerSet[row]
     }
-
-    // func pickerView(pickerView: UIPickerView!, viewForRow row: Int, forComponent component: Int, reusingView view: UIView!) -> UIView!
-
-    // func pickerView(pickerView: UIPickerView!, didSelectRow row: Int, inComponent component: Int)
 }
