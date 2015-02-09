@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "247AED500D67F10AF80F67EB"
+               BuildableName = "ClinkOfGlassesTests.xctest"
+               BlueprintName = "ClinkOfGlassesTests"
+               ReferencedContainer = "container:ClinkOfGlasses.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "247AED500D67F10AF80F67EB"
+               BuildableName = "ClinkOfGlassesTests.xctest"
+               BlueprintName = "ClinkOfGlassesTests"
+               ReferencedContainer = "container:ClinkOfGlasses.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "ClinkOfGlassesTests/testNumberOfOptionsPickerView()">
+               </Test>
+               <Test
+                  Identifier = "ClinkOfGlassesTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>

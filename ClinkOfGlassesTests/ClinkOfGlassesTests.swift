@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import ClinkOfGlasses
 
 class ClinkOfGlassesTests: XCTestCase {
     
@@ -32,5 +33,15 @@ class ClinkOfGlassesTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+
+    func testNumberOfOptionsPickerView() {
+
+        let testClass = ClassWithTestFunc(someData : 1)
+        XCTAssertEqual(testClass.getSomeData(), 1, "Check returned data")
+
+//        var vc : ViewController!
+//        var somePicker : UIPickerView
+//        XCTAssertEqual(vc.numberOfComponentsInPickerView(somePicker), 1, "The actual number of components in Picker View")
+        }
     
 }

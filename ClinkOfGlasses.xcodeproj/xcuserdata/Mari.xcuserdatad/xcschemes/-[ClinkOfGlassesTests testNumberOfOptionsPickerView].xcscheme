@@ -27,6 +27,14 @@
                BlueprintName = "ClinkOfGlassesTests"
                ReferencedContainer = "container:ClinkOfGlasses.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "ClinkOfGlassesTests/testExample()">
+               </Test>
+               <Test
+                  Identifier = "ClinkOfGlassesTests/testPerformanceExample()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
    </TestAction>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		247AE4066CCDFFBB2CE24E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AE51D1CE777DED93F44AC /* AppDelegate.swift */; };
 		247AE58F399FAF5227151EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247AEB0BDEF5086946DD1CA4 /* Main.storyboard */; };
+		247AE98A2B596F0B3ACD0D79 /* ClassWithTestFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AED81E73D2D641064B876 /* ClassWithTestFunc.swift */; };
 		247AEA177C795040220C03B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AE8DEA9F9F4500DEA7609 /* ViewController.swift */; };
 		247AECB959C72208BF03ABB5 /* Media in Resources */ = {isa = PBXBuildFile; fileRef = 247AE229B293C5FAE06D1ED8 /* Media */; };
 		247AED623BA31780FF7A160D /* ClinkOfGlassesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AE5A2AE93A444AC035C9B /* ClinkOfGlassesTests.swift */; };
@@ -16,6 +17,10 @@
 		4CE5980D1A2C91C60057CD47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE5980C1A2C91C60057CD47 /* Images.xcassets */; };
 		4CE5980F1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4CE5980E1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 */; };
 		4CE598121A2DE8890057CD47 /* glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CE598111A2DE8890057CD47 /* glasses.png */; };
+		4CE598131A2E68310057CD47 /* ViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 247AE8DEA9F9F4500DEA7609 /* ViewController.swift */; };
+		4CE598141A2E68310057CD47 /* ClassWithTestFunc.swift in Resources */ = {isa = PBXBuildFile; fileRef = 247AED81E73D2D641064B876 /* ClassWithTestFunc.swift */; };
+		4CE598151A2E6DFC0057CD47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AE8DEA9F9F4500DEA7609 /* ViewController.swift */; };
+		4CE598161A2E6DFC0057CD47 /* ClassWithTestFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AED81E73D2D641064B876 /* ClassWithTestFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,7 @@
 		247AE74BD7131671DBDA015F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		247AE8BA63CED50215C52F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		247AE8DEA9F9F4500DEA7609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		247AED81E73D2D641064B876 /* ClassWithTestFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassWithTestFunc.swift; sourceTree = "<group>"; };
 		247AEDA6E45098511314F3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		247AEF395BA202E4D2B50992 /* ClinkOfGlassesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClinkOfGlassesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE5980C1A2C91C60057CD47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -117,6 +123,7 @@
 				247AE51D1CE777DED93F44AC /* AppDelegate.swift */,
 				247AEB0BDEF5086946DD1CA4 /* Main.storyboard */,
 				247AE8DEA9F9F4500DEA7609 /* ViewController.swift */,
+				247AED81E73D2D641064B876 /* ClassWithTestFunc.swift */,
 			);
 			path = ClinkOfGlasses;
 			sourceTree = "<group>";
@@ -197,6 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE598131A2E68310057CD47 /* ViewController.swift in Resources */,
+				4CE598141A2E68310057CD47 /* ClassWithTestFunc.swift in Resources */,
 				4CE598121A2DE8890057CD47 /* glasses.png in Resources */,
 				4CE5980F1A2C98D70057CD47 /* glasses_tumblers_x2_clink_004.mp3 in Resources */,
 				247AEFD77CFB3B9547EE08DD /* LaunchScreen.xib in Resources */,
@@ -215,6 +224,7 @@
 			files = (
 				247AE4066CCDFFBB2CE24E49 /* AppDelegate.swift in Sources */,
 				247AEA177C795040220C03B2 /* ViewController.swift in Sources */,
+				247AE98A2B596F0B3ACD0D79 /* ClassWithTestFunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE598151A2E6DFC0057CD47 /* ViewController.swift in Sources */,
+				4CE598161A2E6DFC0057CD47 /* ClassWithTestFunc.swift in Sources */,
 				247AED623BA31780FF7A160D /* ClinkOfGlassesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
